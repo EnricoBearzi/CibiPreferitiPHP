@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesso al Sondaggio</title>
+</head>
+<body>
+
+<script>
+    
+    function controllaPassword() {
+        var passwordCorretta = "passwordsegreta";
+
+        var passwordInserita = document.getElementById("passwordInput").value;
+
+        if (passwordInserita === passwordCorretta) {
+            window.location.href = "sondaggio.html";
+        } else {
+            alert("Password errata. Riprova.");
+        }
+    }
+</script>
+
+<div>
+    <h2>Inserisci la password per accedere al sondaggio:</h2>
+    <input type="password" id="passwordInput" placeholder="Inserisci la password">
+    <button onclick="controllaPassword()">Accedi</button>
+</div>
+
+</body>
+</html>
