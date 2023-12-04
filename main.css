@@ -1,0 +1,46 @@
+
+/*
+    Uguale per tutti
+*/
+.mainDiv {
+    background-color: #D1D1D1;
+    text-align: center;
+    margin: 5% 10% 5% 10%;
+    width: 80%;
+    height: 75%;
+    border-radius: 3cqw;
+}
+
+body {
+    background-color: #2A2A2A;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+/*
+    Per sondaggio
+*/
+
+.mainDiv h1 {
+    font-size: 4em;
+    padding-top: 5%;
+}
+
+.mainDiv div {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+.selectDiv {
+    border: solid black 2px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 40%;
+    border-radius: 2cqw;
+}
+
