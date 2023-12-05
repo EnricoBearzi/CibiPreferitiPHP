@@ -1,5 +1,10 @@
 <?php
-    
+    if(!isset($numeroSondaggio)) {
+        $numeroSondaggio = 0;
+    } else {
+        $numeroSondaggio++;
+    }
+    echo $numeroSondaggio;
 ?>
 
 <!DOCTYPE html>
