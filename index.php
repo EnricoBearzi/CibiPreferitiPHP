@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h2>Accesso al Sondaggio</h2>
 
     <?php
-    // Mostra il messaggio di errore se presente
+
     if (isset($messaggioErrore)) {
         echo "<p style='color: red;'>$messaggioErrore</p>";
     }
