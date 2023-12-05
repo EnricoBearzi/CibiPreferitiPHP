@@ -15,7 +15,6 @@
             <h1>Domanda</h1>
             <form>
                 <div>
-                    
                     <input type="radio" id="s1" name="sondaggio">
                     <label class="selectDiv" for="s1">SASSO</label>
 
@@ -27,7 +26,6 @@
                     
                     <input type="radio" id="s4" name="sondaggio">
                     <label class="selectDiv" for="s4">SASSO</label>
-
                 </div>
                 <div>
                     <submit class="selectDiv">NEXT</button>

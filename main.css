@@ -3,7 +3,7 @@
     Uguale per tutti
 */
 .mainDiv {
-    background-color: #D1D1D1;
+    background-color: #621708;
     text-align: center;
     margin: 5% 10% 0 10%;
     width: 80%;
@@ -12,9 +12,10 @@
 }
 
 body {
-    background-color: #2A2A2A;
+    background-color: #220901;
     height: 100%;
     margin: 0;
+    color: #F6AA1C;
 }
 
 html {
@@ -38,7 +39,7 @@ html {
 }
 
 .selectDiv {
-    border: solid black 3px;
+    border: solid #F6AA1C 3px;
     margin: 1%;
     width: 40%;
     padding: 1%;
@@ -48,8 +49,8 @@ html {
 }
 
 .selectDiv:hover {
-    border-color: #9B2FD0;
-    box-shadow: 0 0cqw 2cqw #AF58DA;
+    border-color: #941B0C;
+    box-shadow: 0 0cqw 2cqw #BC3908;
 }
 
 input[type="radio"] {
@@ -57,7 +58,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
-    background-color: #b783d1;
-    border-color: #9B2FD0;
+    background-color: #BC3908;
+    border-color: #941B0C;
 }
 
