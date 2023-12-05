@@ -1,5 +1,5 @@
 <?php
-$json_data = file_get_contents("./data.json");
+$json_data = file_get_contents("../data.json");
 $foodData = json_decode($json_data, true);
 $graphData = array();
 
