@@ -1,5 +1,5 @@
 <?php
-
+    
 ?>
 
 <!DOCTYPE html>
@@ -13,25 +13,26 @@
     <body>
         <div class="mainDiv">
             <h1>Domanda</h1>
-            <div>
-                <div class="selectDiv">
-                    <h2>SASSO</h2>
+            <form>
+                <div>
+                    
+                    <input type="radio" id="s1" name="sondaggio">
+                    <label class="selectDiv" for="s1">SASSO</label>
+
+                    <input type="radio" id="s2" name="sondaggio">
+                    <label class="selectDiv" for="s2">SASSO</label>
+                    
+                    <input type="radio" id="s3" name="sondaggio">
+                    <label class="selectDiv" for="s3">SASSO</label>
+                    
+                    <input type="radio" id="s4" name="sondaggio">
+                    <label class="selectDiv" for="s4">SASSO</label>
+
                 </div>
-                <div class="selectDiv">
-                    <h2>SASSO</h2>
+                <div>
+                    <submit class="selectDiv">NEXT</button>
                 </div>
-                <div class="selectDiv">
-                    <h2>SASSO</h2>
-                </div>
-                <div class="selectDiv">
-                    <h2>SASSO</h2>
-                </div>
-            </div>
-            <div>
-                <div class="selectDiv">
-                    <h2>NEXT</h2>
-                </div>
-            </div>
+            </form>
         </div>
     </body>
 </html>
