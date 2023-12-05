@@ -41,11 +41,12 @@ html {
 .selectDiv {
     border: solid #F6AA1C 3px;
     margin: 1%;
-    width: 40%;
+    width: 50cqb;
     padding: 1%;
     border-radius: 1cqw;
     transition: 300ms;
-    font-size: 2em;    
+    font-size: 2em;
+
 }
 
 .selectDiv:hover {
@@ -55,6 +56,11 @@ html {
 
 input[type="radio"] {
     display: none;
+}
+
+input[type="submit"] {
+    background-color: #621708;
+    color: #F6AA1C;
 }
 
 input[type="radio"]:checked + label {
