@@ -15,14 +15,11 @@
         foreach($data as $category => $array)
         {
             if($tempCnt == $numeroSondaggio) {
-
                 $cnt = 0;
-
                 foreach($array as $food => $value)
                 {
-                    
-                    if(cnt == $sondaggio) {
-                        $value = 50;
+                    if($cnt == $sondaggio) {
+                        $data[$category][$food]++;
                     }
                     $cnt++;
                 }
@@ -30,19 +27,8 @@
             $tempCnt++;
         }
 
-
-
-        /*foreach($data as $category => $array)
-        {
-            echo "<h1><b>Category: ".$category." </b></h1>";
-            foreach($array as $food => $value)
-            {
-                $value++;
-                echo "<b>Food: </b>".$food." <b>Value: </b>".$value." <br>";
-            }
-            echo "<br><br>";
-        }*/
-        
+        $newJsonString = json_encode($data);
+        file_put_contents('data.json', $newJsonString);
     }
 
     $antipasti = $data["Antipasti"];
