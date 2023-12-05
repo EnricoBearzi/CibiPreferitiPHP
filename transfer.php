@@ -31,5 +31,5 @@
         file_put_contents('data.json', $newJsonString);
     }
 
-    header("Location: graphs.php");
+    header("Location: ./graph/graphs.php");
 ?>
