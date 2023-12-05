@@ -77,7 +77,7 @@
     <body>
         <div class="mainDiv">
             <h1> <?php echo $categoryFinal ?> </h1>
-            <form action= <?php if($numeroSondaggio<4){ echo "sondaggio.php";} ?> method="post">
+            <form action= <?php if($numeroSondaggio<4){ echo "sondaggio.php";}else{echo "transfer.php";} ?> method="post">
                 <div>
                     <input type="radio" id="s1" name="sondaggio" value="0" required>
                     <label class="selectDiv" for="s1"><?php echo $foodFinal[0] ?></label>
